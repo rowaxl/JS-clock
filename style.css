@@ -22,6 +22,7 @@ body {
   height: 75vw;
   display: grid;
   place-content: center;
+  position: relative;
 }
 
 .clock {
@@ -74,4 +75,21 @@ body {
 
 .move {
   transition: all 100ms ease;
+}
+
+.copyright {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #0072fe;
 }
