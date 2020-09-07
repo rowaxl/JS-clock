@@ -93,3 +93,63 @@ body {
   text-decoration: none;
   color: #0072fe;
 }
+
+span.timestamp {
+  position: absolute;
+  font-size: 2em;
+  top: 40%;
+  left: 42%;
+  width: 30px;
+  height: 40px;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+span.timestamp:nth-of-type(1) {
+  transform: translateY(-350%);
+}
+
+span.timestamp:nth-of-type(2) {
+  transform: translateY(-300%) translateX(320%) rotate(30deg);
+}
+
+span.timestamp:nth-of-type(3) {
+  transform: translateY(-150%) translateX(500%) rotate(60deg);
+}
+
+span.timestamp:nth-of-type(4) {
+  transform: translateY(40%) translateX(600%) rotate(90deg);
+}
+
+span.timestamp:nth-of-type(5) {
+  transform: translateY(240%) translateX(520%) rotate(120deg);
+}
+
+span.timestamp:nth-of-type(6) {
+  transform: translateY(400%) translateX(320%) rotate(150deg);
+}
+
+span.timestamp:nth-of-type(7) {
+  transform: translateY(480%) translateX(80%) rotate(180deg);
+}
+
+span.timestamp:nth-of-type(8) {
+  transform: translateY(400%) translateX(-220%) rotate(-150deg);
+  font-size: 2.3vw;
+}
+
+span.timestamp:nth-of-type(9) {
+  transform: translateY(280%) translateX(-420%) rotate(-120deg);
+  font-size: 2.2vw;
+}
+span.timestamp:nth-of-type(10) {
+  transform: translateY(40%) translateX(-520%) rotate(-90deg);
+}
+
+span.timestamp:nth-of-type(11) {
+  transform: translateY(-160%) translateX(-420%) rotate(-60deg);
+}
+
+span.timestamp:nth-of-type(12) {
+  transform: translateY(-300%) translateX(-260%) rotate(-30deg);
+}
